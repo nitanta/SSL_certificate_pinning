@@ -30,8 +30,9 @@ class ViewController: UIViewController {
     }
 
     private func loadData() {
-        NetworkClient.request(Router.users)
-            .responseDecodable { (response: DataResponse<UserList>) in
+        NetworkClient
+            .request(Router.users)
+            .responseDecodable { (response: DataResponse<UserList, AFError>) in
                 switch response.result {
                 case .success(let value):
                     self.users = value.users

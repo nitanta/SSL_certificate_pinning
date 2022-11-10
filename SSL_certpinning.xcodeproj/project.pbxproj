@@ -19,6 +19,7 @@
 		50035C4B291CFD4F00A5AE0B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50035C4A291CFD4F00A5AE0B /* NetworkClient.swift */; };
 		50035C4D291CFD7A00A5AE0B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50035C4C291CFD7A00A5AE0B /* Router.swift */; };
 		50035C50291CFDA200A5AE0B /* Certificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50035C4F291CFDA200A5AE0B /* Certificates.swift */; };
+		50035C53291D043C00A5AE0B /* stackexchange.com.der in Resources */ = {isa = PBXBuildFile; fileRef = 50035C52291CFE7400A5AE0B /* stackexchange.com.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50035C53291D043C00A5AE0B /* stackexchange.com.der in Resources */,
 				50035C39291CFBF900A5AE0B /* LaunchScreen.storyboard in Resources */,
 				50035C36291CFBF900A5AE0B /* Assets.xcassets in Resources */,
 				50035C41291CFC1B00A5AE0B /* Readme.md in Resources */,
