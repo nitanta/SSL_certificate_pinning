@@ -19,7 +19,7 @@ final class NetworkClient {
     let session: Session
     
     private init() {
-        session = Session.default //Session(serverTrustManager: ServerTrustManager(evaluators: evaluators))
+        session = Session(serverTrustManager: ServerTrustManager(evaluators: evaluators))
     }
     
     // MARK: - Static Definitions

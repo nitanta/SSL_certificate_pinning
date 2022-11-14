@@ -32,3 +32,13 @@ We will be using 1 for this demo.
 ## Disadvantages
 
 - Need to change keys or certficates if the server changes it and upload a new build.
+
+
+
+## Testing
+
+https://mockapi.io/projects/6371bcf3025414c637fccedf
+
+## References
+
+https://www.kodeco.com/1484288-preventing-man-in-the-middle-attacks-in-ios-with-ssl-pinning
