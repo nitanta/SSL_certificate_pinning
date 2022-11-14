@@ -19,7 +19,7 @@
 		50035C4B291CFD4F00A5AE0B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50035C4A291CFD4F00A5AE0B /* NetworkClient.swift */; };
 		50035C4D291CFD7A00A5AE0B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50035C4C291CFD7A00A5AE0B /* Router.swift */; };
 		50035C50291CFDA200A5AE0B /* Certificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50035C4F291CFDA200A5AE0B /* Certificates.swift */; };
-		50035C53291D043C00A5AE0B /* stackexchange.com.der in Resources */ = {isa = PBXBuildFile; fileRef = 50035C52291CFE7400A5AE0B /* stackexchange.com.der */; };
+		50CD96882921ED9100FC1174 /* stackexchange.com.der in Resources */ = {isa = PBXBuildFile; fileRef = 50CD96872921ECC200FC1174 /* stackexchange.com.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		50035C4A291CFD4F00A5AE0B /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		50035C4C291CFD7A00A5AE0B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		50035C4F291CFDA200A5AE0B /* Certificates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificates.swift; sourceTree = "<group>"; };
-		50035C52291CFE7400A5AE0B /* stackexchange.com.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = stackexchange.com.der; sourceTree = "<group>"; };
+		50CD96872921ECC200FC1174 /* stackexchange.com.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = stackexchange.com.der; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		50035C51291CFE5A00A5AE0B /* Certs */ = {
 			isa = PBXGroup;
 			children = (
-				50035C52291CFE7400A5AE0B /* stackexchange.com.der */,
+				50CD96872921ECC200FC1174 /* stackexchange.com.der */,
 			);
 			path = Certs;
 			sourceTree = "<group>";
@@ -175,10 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50035C53291D043C00A5AE0B /* stackexchange.com.der in Resources */,
 				50035C39291CFBF900A5AE0B /* LaunchScreen.storyboard in Resources */,
 				50035C36291CFBF900A5AE0B /* Assets.xcassets in Resources */,
 				50035C41291CFC1B00A5AE0B /* Readme.md in Resources */,
+				50CD96882921ED9100FC1174 /* stackexchange.com.der in Resources */,
 				50035C34291CFBF300A5AE0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

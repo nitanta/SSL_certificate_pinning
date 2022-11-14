@@ -11,11 +11,15 @@ import Alamofire
 class ViewController: UIViewController {
 
     @IBOutlet private weak var tableView: UITableView!
+    private var refreshControl = UIRefreshControl()
     
     var users: [User] = [] {
-      didSet {
-        tableView.reloadData()
-      }
+        didSet {
+            if refreshControl.isRefreshing {
+                refreshControl.endRefreshing()
+            }
+            tableView.reloadData()
+        }
     }
     
     override func viewDidLoad() {
@@ -26,7 +30,15 @@ class ViewController: UIViewController {
     
     func setupTableView() {
         tableView.delegate = self
-        tableView.delegate = self
+        tableView.dataSource = self
+        
+        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
+        tableView.addSubview(refreshControl)
+    }
+    
+    @objc func refresh() {
+        loadData()
     }
 
     private func loadData() {
