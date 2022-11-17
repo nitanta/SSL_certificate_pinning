@@ -31,7 +31,7 @@ We will be using 1 for this demo.
 
 ## Disadvantages
 
-- Need to change keys or certficates if the server changes it and upload a new build.
+- Need to change keys or certficates if the server changes it and need to upload a new build.
 
 
 
